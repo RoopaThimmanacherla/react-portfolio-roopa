@@ -1,10 +1,12 @@
 
-import './App.css'
-import PortfolioContainer from './components/PortfolioContainer'
+//import PortfolioContainer from './components/PortfolioContainer'
+import Header from './components/Header'
 
 function App() {
 
-  <PortfolioContainer/>
+  return (
+  <Header/>
+  )
 }
 
 export default App
