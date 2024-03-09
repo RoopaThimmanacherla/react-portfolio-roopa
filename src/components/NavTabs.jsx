@@ -5,7 +5,7 @@
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand"style={{height:"100px",backgroundImage:`url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,fontSize:'20px'}}>
+    <nav className="navbar navbar-expand"style={{height:"100px",backgroundColor:'#bfd9bf',fontSize:'20px'}}>
       <div className="container">
           <b style={{color:"green",fontSize:"40px"}}>Roopa</b>
         <ul className="nav  justify-content-center">

@@ -1,7 +1,9 @@
+
 export default function AboutMe(){
     return(
         <div>
       <h1>About Page</h1>
+      <img style={{height:"10%",width:"10%"}}src='.../assets/images/profile pic.png' alt='profilepic'/>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
