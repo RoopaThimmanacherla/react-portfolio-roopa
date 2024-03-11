@@ -40,7 +40,7 @@ function Form() {
       return;
     }
     if (!message) {
-      setErrorMessage(`Messgae is required`);
+      setErrorMessage(`Message is required`);
       return;
     }
 
@@ -50,7 +50,8 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
+    <div className="container">
+      <h1><b>Contact</b></h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <label>
           Email adress :
@@ -58,8 +59,9 @@ function Form() {
           <input
             value={email}
             name="email"
+            size="40"
             onChange={handleInputChange}
-            type="email"
+            type="text"
             placeholder="email"
           />
           </div>
@@ -70,6 +72,7 @@ function Form() {
         <input
           value={name}
           name="name"
+          size="40"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
@@ -82,6 +85,7 @@ function Form() {
         <textarea
           value={message}
           name="message"
+          rows="7" cols="43"
           onChange={handleInputChange}
           
         />

@@ -5,21 +5,13 @@ export default function AboutMe(){
       <h1>About Page</h1>
       <img style={{height:"10%",width:"10%",borderRadius: "50%"}} src={photo} alt='profilepic'/>
       <p style={{margin:"0px"}}>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. 
+      Hey Roopa here having 3 years of experience in salesforce with
+          capgemini and took a career gap of 8 years to give time to
+          famliy.Mostly worked with client coca-cola for almost two years to
+          enhance the already developed applicatuions.Worked with clients
+          Philips health care and cycle30 for almost 1year to test the already
+          developed application in salesforce.
+
         
       </p>
     </div>
