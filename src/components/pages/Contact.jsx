@@ -1,50 +1,101 @@
-
 import { useState } from "react";
-import ReactDOM from "react-dom/client";
+import "./Contact.css";
 
-function Contact(){
-  const [inputs, setInputs] = useState({});
-  const [textarea, setTextarea] = useState(
-    "The content of a textarea goes in the value attribute"
-  );
+// Here we import a helper function that will check if the email is valid
+import { validateEmail } from "../../utils/helpers";
 
-  const handleChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setInputs(values => ({...values, [name]: value}))
-    setTextarea(event.target.value)
+function Form() {
+  // Create state variables for the fields in the form
+  // We are also setting their initial values to an empty string
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
-  }
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(inputs);
-  }
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    // Based on the input type, we set the state of either email, username, and password
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "name") {
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
+
+    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+    if (!validateEmail(email) || !name) {
+      setErrorMessage("Email or username is invalid");
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
+    if (!message) {
+      setErrorMessage(`Messgae is required`);
+      return;
+    }
+
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    setName("");
+    setEmail("");
+  };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>Name
-      <input 
-        type="text" 
-        name="username" 
-        value={inputs.username || ""} 
-        onChange={handleChange}
-      />
-      </label>
-      <label>Email address:
-        <input 
-          type="text" 
-          name="age" 
-          value={inputs.age || ""} 
-          onChange={handleChange}
-        />
+    <div className="container text-center">
+      <form className="form" onSubmit={handleFormSubmit}>
+        <label>
+          Email adress :
+          <div>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+          />
+          </div>
         </label>
-        <textarea value={textarea} onChange={handleChange} />
-
-        <input type="submit" />
-    </form>
-  )
+        <label>
+          Name : 
+          <div>
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+        />
+        </div>
+        </label>
+        <label>
+          Message : 
+          <div>
+        <textarea
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          
+        />
+        </div>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </div>
+  );
 }
 
-
-export default Contact;
+export default Form;

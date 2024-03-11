@@ -5,12 +5,13 @@ const styles = {
     headerStyle: {
       color:"white",
       fontSize: '20px',
-      backgroundColor:'#193367'
+      backgroundColor:'#193367',
+      height:"100vh"
     }
   };
 
 const Header=()=>{
-return(<div style={styles.headerStyle}>
+return(<div  style={styles.headerStyle}>
 
      <PortfolioContainer/>
     </div>)

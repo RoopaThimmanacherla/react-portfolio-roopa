@@ -2,23 +2,23 @@
 //import NavTabs from "./NavTabs";
 
 const styles = {
-  headerStyle: {
-    color: "white",
-    fontSize: "20px",
-    height:"100px",
-    backgroundColor:'#193367'
+  footerstyle: {
+    backgroundColor:'#193367',
+    display:"flex",
+    flexDirection:"row",
+
  },
   img :{
-    width: "50px",
-    height: "50px",
+    width: "30px",
+    height: "30px",
   }
 };
 
 const Footer = () => {
   return (
-    <div className="justify-content-center" style={styles.headerStyle} >
+    <div className="justify-content-center" style={styles.footerstyle} >
       <a
-        href="https://github.com/RoopaThimmanacherla?tab=repositories"
+         style={{padding:"10px"}} href="https://github.com/RoopaThimmanacherla?tab=repositories"
         target="blank"
       >
         <img style={styles.img}
@@ -27,7 +27,7 @@ const Footer = () => {
         />
         
       </a>
-      <a
+      <a style={{padding:"10px"}}
         href="https://www.linkedin.com/in/roopa-t-06274575/"
         target="blank"
       >
@@ -37,7 +37,7 @@ const Footer = () => {
         />
         </a>
 
-        <a
+        <a style={{padding:"10px"}}
         href="https://www.facebook.com/roopa.reddy.3133"
         target="blank"
       >
