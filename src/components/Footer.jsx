@@ -6,6 +6,13 @@ const styles = {
     backgroundColor:'#193367',
     display:"flex",
     flexDirection:"row",
+    position:"fixed",
+    bottom:0,
+    justifyContent: 'center',
+    padding: '10px 0', // Add padding top and bottom
+    width: '100%', // Take up full width of the viewport
+
+
 
  },
   img :{
