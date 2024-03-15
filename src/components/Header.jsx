@@ -5,7 +5,7 @@ const styles = {
     headerStyle: {
       color:"white",
       fontSize: '20px',
-      backgroundColor:'#193367',
+      backgroundColor:'#28587B',
       height:"100vh"
     }
   };

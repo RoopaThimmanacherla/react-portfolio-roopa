@@ -1,4 +1,11 @@
 import "./Portfolio.css";
+import dashboard from "../../assets/images/weatherDashboard.png";
+import tripPlanner from "../../assets/images/tripPlanner.png";
+import workdayScheduler from "../../assets/images/workdayScheduler.png";
+import generatePassword from "../../assets/images/passwordgenerator.png";
+import quiz from "../../assets/images/codeQuiz.png";
+import ratatouille from "../../assets/images/codeQuiz.png"
+
 
 export default function Portfolio() {
   return (
@@ -8,7 +15,8 @@ export default function Portfolio() {
           <div
             className="box "
             style={{
-              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
+              backgroundImage: `url(${dashboard})`,
+              
             }}
           >
             <div style={{ position: "absolute", margin: "60px" }}>
@@ -38,7 +46,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
+              backgroundImage: `url(${tripPlanner})`,
             }}
           >
             <div style={{ position: "absolute", margin: "60px" }}>
@@ -70,7 +78,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
+              backgroundImage: `url(${workdayScheduler})`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
@@ -100,7 +108,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
+              backgroundImage: `url(${generatePassword})`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
@@ -132,7 +140,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
+              backgroundImage: `url(${quiz})`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
@@ -162,7 +170,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
+              backgroundImage: `url(${ratatouille})`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>

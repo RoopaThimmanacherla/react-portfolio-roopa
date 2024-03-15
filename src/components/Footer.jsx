@@ -3,7 +3,7 @@
 
 const styles = {
   footerstyle: {
-    backgroundColor:'#193367',
+    backgroundColor:'#28587B',
     display:"flex",
     flexDirection:"row",
     position:"fixed",
