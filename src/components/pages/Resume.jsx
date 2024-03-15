@@ -1,8 +1,9 @@
+
 export default function Resume(){
     return(
         <div style={{"margin-left": "80px","margin-top":"50px"}}>
             <h1>Resume</h1>
-            <a href="https://docs.google.com/document/d/1IMMV43htXu8hfJK8zVbH2vUNDdCZEFWtLkFlXrWblSE/edit?usp=drive_link" target="blank" download="true">Download my Resume</a>
+            <a href="../../assets/Roopa Resume Salesforce.pdf" target="blank" download="true">Download my Resume</a>
 
             <h2>
                 Front-end Proficiencies
