@@ -1,9 +1,9 @@
-
+import resume from "../../assets/Resume.pdf"
 export default function Resume(){
     return(
         <div style={{"margin-left": "80px","margin-top":"50px"}}>
             <h1>Resume</h1>
-            <a href="../../assets/Roopa Resume Salesforce.pdf" target="blank" download="true">Download my Resume</a>
+            <a href={resume} target="blank" download>Download my Resume</a>
 
             <h2>
                 Front-end Proficiencies

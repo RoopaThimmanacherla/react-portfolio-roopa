@@ -8,7 +8,7 @@ export default function Portfolio() {
           <div
             className="box "
             style={{
-              backgroundImage: `url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,
+              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
             }}
           >
             <div style={{ position: "absolute", margin: "60px" }}>
@@ -38,19 +38,19 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,
+              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
             }}
           >
             <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://roopathimmanacherla.github.io/trip-planner/"
                 target="blank"
                 className="hidden-link"
               >
-                Weather Dashboard
+                Trip Planner
               </a>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://github.com/RoopaThimmanacherla/trip-planner"
                 target="blank"
                 className="hidden-link"
               >
@@ -70,19 +70,19 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,
+              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://roopathimmanacherla.github.io/work-day-scheduler/"
                 target="blank"
                 className="hidden-link"
               >
-                Weather Dashboard
+                Work Day Scheduler
               </a>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://github.com/RoopaThimmanacherla/work-day-scheduler"
                 target="blank"
                 className="hidden-link"
               >
@@ -100,19 +100,19 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,
+              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://github.com/RoopaThimmanacherla/generate-password"
                 target="blank"
                 className="hidden-link"
               >
-                Weather Dashboard
+                Generate Password
               </a>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://roopathimmanacherla.github.io/generate-password/"
                 target="blank"
                 className="hidden-link"
               >
@@ -132,19 +132,19 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,
+              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://github.com/RoopaThimmanacherla/code-quiz"
                 target="blank"
                 className="hidden-link"
               >
-                Weather Dashboard
+                Code Quiz
               </a>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://roopathimmanacherla.github.io/code-quiz/"
                 target="blank"
                 className="hidden-link"
               >
@@ -162,19 +162,19 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url("https://img.wallpapersafari.com/desktop/1600/900/78/33/mi18Yw.jpg")`,
+              backgroundImage: `url("https://www.teahub.io/photos/full/127-1270024_seamless-polygon-backgrounds-vol-professional-background-for-poster.jpg")`,
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://github.com/RoopaThimmanacherla/Ratatouille"
                 target="blank"
                 className="hidden-link"
               >
-                Weather Dashboard
+                Ratatouille
               </a>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://ratatouille-v2-b27a725e290e.herokuapp.com/login"
                 target="blank"
                 className="hidden-link"
               >
