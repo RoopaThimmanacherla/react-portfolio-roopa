@@ -49,12 +49,7 @@ function Form() {
     setEmail("");
   };
 
-  const checkempty=(x)=>{
-    if(x.value==""){
-      setErrorMessage(`Field is required`);
-
-    }
-  }
+  
   return (
     <div className="container">
       <h1><b>Contact</b></h1>
@@ -75,7 +70,7 @@ function Form() {
         <label>
           Name : 
           <div>
-        <input onMouseLeave={checkempty(this)}
+        <input 
           value={name}
           name="name"
           size="40"
