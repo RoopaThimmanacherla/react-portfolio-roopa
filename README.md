@@ -17,7 +17,7 @@
 
 ![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/ee04deb6-140c-4cf2-ab30-d35ed08560ba)
 
-![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/87ec70c4-a709-495f-9df1-60b1090f143a)
+![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/5d634a17-c722-42ca-88fc-74d835557438)
 
 ## References
 
