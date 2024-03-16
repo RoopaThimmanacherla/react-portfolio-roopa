@@ -4,7 +4,7 @@ import tripPlanner from "../../assets/images/tripPlanner.png";
 import workdayScheduler from "../../assets/images/workdayScheduler.png";
 import generatePassword from "../../assets/images/passwordgenerator.png";
 import quiz from "../../assets/images/codeQuiz.png";
-import ratatouille from "../../assets/images/codeQuiz.png"
+import ratatouille from "../../assets/images/Ratatouille.png"
 
 
 export default function Portfolio() {
@@ -15,7 +15,7 @@ export default function Portfolio() {
           <div
             className="box "
             style={{
-              backgroundImage: `url(${dashboard})`,
+              backgroundImage: `url(${dashboard})`,backgroundSize: "cover"
               
             }}
           >
@@ -46,7 +46,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url(${tripPlanner})`,
+              backgroundImage: `url(${tripPlanner})`,backgroundSize: "cover"
             }}
           >
             <div style={{ position: "absolute", margin: "60px" }}>
@@ -78,7 +78,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url(${workdayScheduler})`,
+              backgroundImage: `url(${workdayScheduler})`,backgroundSize: "cover"
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
@@ -108,7 +108,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url(${generatePassword})`,
+              backgroundImage: `url(${generatePassword})`,backgroundSize: "cover"
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
@@ -140,7 +140,7 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url(${quiz})`,
+              backgroundImage: `url(${quiz})`,backgroundSize: "cover"
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
@@ -170,7 +170,8 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url(${ratatouille})`,
+              backgroundImage: `url(${ratatouille})`,backgroundSize: "cover"
+
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>

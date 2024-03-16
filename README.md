@@ -1,8 +1,23 @@
-# React + Vite
+## Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Created a single page portfolio website which contains previos experience and current work samples of the employee which makes easier for the employer to get to know about the candiadate skill set and can easily reach to the candidate through the contact info on the site.
 
-Currently, two official plugins are available:
+-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Github Repository url: https://github.com/RoopaThimmanacherla/react-portfolio-roopa
+
+- Deployed Application url:
+
+- Desktop view of the deployed application:
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+## References
+
+- Referred to w3schools and MDN docs for sytax and to the activities in the module which really helped me .Thanks for the instructor for designing the course so well.
