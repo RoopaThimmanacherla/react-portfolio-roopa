@@ -10,13 +10,14 @@
 
 - Desktop view of the deployed application:
 
-![alt text](image.png)
+![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/4537c969-dbc9-4985-b412-ea11da7f2f32)
 
-![alt text](image-1.png)
 
-![alt text](image-2.png)
+![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/7d592f91-39aa-4b86-ba93-e5bf65d26933)
 
-![alt text](image-3.png)
+![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/ee04deb6-140c-4cf2-ab30-d35ed08560ba)
+
+![image](https://github.com/RoopaThimmanacherla/react-portfolio-roopa/assets/144958836/87ec70c4-a709-495f-9df1-60b1090f143a)
 
 ## References
 
