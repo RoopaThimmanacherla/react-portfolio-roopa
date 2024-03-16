@@ -2,7 +2,6 @@
 
 - Created a single page portfolio website which contains previos experience and current work samples of the employee which makes easier for the employer to get to know about the candiadate skill set and can easily reach to the candidate through the contact info on the site.
 
--
 
 - Github Repository url: https://github.com/RoopaThimmanacherla/react-portfolio-roopa
 
