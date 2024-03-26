@@ -2,7 +2,7 @@ import "./portfolio.css";
 import dashboard from "../../assets/images/weatherDashboard.png";
 import tripPlanner from "../../assets/images/tripPlanner.png";
 import workdayScheduler from "../../assets/images/workdayScheduler.png";
-import generatePassword from "../../assets/images/passwordgenerator.png";
+import generatePassword from "../../assets/images/passwordGenerator.png";
 import quiz from "../../assets/images/codeQuiz.png";
 import ratatouille from "../../assets/images/Ratatouille.png"
 
