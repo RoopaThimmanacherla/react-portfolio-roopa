@@ -1,4 +1,4 @@
-import "./Portfolio.css";
+import "./portfolio.css";
 import dashboard from "../../assets/images/weatherDashboard.png";
 import tripPlanner from "../../assets/images/tripPlanner.png";
 import workdayScheduler from "../../assets/images/workdayScheduler.png";
