@@ -55,7 +55,7 @@ export default function Resume(){
                         REST APIs
                     </li>
                     <li>
-                        GraphQl
+                        GraphQL
                     </li>
                 </ul>
             </div>
