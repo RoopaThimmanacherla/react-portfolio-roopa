@@ -5,7 +5,7 @@
 
 - Github Repository url: https://github.com/RoopaThimmanacherla/react-portfolio-roopa
 
-- Deployed Application url:
+- Deployed Application url: https://roopa-portfolio-react.netlify.app/
 
 - Desktop view of the deployed application:
 
