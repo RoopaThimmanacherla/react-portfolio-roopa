@@ -21,13 +21,16 @@ export default function Resume(){
                     JQuery
                 </li>
                 <li>
-                    Responsive Design
+                    HandleBars
                 </li>
                 <li>
                     React
                 </li>
                 <li>
                     Bootstrap
+                </li>
+                <li>
+                    GraphQL
                 </li>
             </ul>
 
@@ -37,12 +40,10 @@ export default function Resume(){
                 </h2>
                 <ul>
                     <li>
-                        APIs
-                    </li><li>
-                        Node
+                        Node.js
                     </li>
                     <li>
-                        Express
+                        Express.js
                     </li>
                     <li>
                         MySQL,Sequelize
@@ -51,7 +52,7 @@ export default function Resume(){
                         MongoDB,Mongoose
                     </li>
                     <li>
-                        REST
+                        REST APIs
                     </li>
                     <li>
                         GraphQl

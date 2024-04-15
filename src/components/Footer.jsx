@@ -29,7 +29,7 @@ const Footer = () => {
         target="blank"
       >
         <img style={styles.img}
-          src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png" className="rounded-circle"
+          src="https://pngimg.com/uploads/github/github_PNG28.png" className="rounded-circle"
           alt="github"
         />
         

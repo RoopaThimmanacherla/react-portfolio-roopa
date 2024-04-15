@@ -3,7 +3,7 @@ import dashboard from "../../assets/images/weatherDashboard.png";
 import tripPlanner from "../../assets/images/tripPlanner.png";
 import workdayScheduler from "../../assets/images/workdayScheduler.png";
 import generatePassword from "../../assets/images/passwordGenerator.png";
-import quiz from "../../assets/images/codeQuiz.png";
+import university from "../../assets/images/zeoUniversityHub.png";
 import ratatouille from "../../assets/images/Ratatouille.png"
 
 
@@ -21,7 +21,7 @@ export default function Portfolio() {
           >
             <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/weather-dashboard"
+                href="https://roopathimmanacherla.github.io/weather-dashboard/"
                 target="blank"
                 className="hidden-link"
               >
@@ -34,7 +34,7 @@ export default function Portfolio() {
               >
                 <img
                   style={{ width: "60px", height: "60px", padding: "10px" }}
-                  src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png"
+                  src="https://pngimg.com/uploads/github/github_PNG7.png"
                   className="rounded-circle"
                   alt="github"
                 />
@@ -64,7 +64,7 @@ export default function Portfolio() {
               >
                 <img
                   style={{ width: "60px", height: "60px", padding: "10px" }}
-                  src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png"
+                  src="https://pngimg.com/uploads/github/github_PNG7.png"
                   className="rounded-circle"
                   alt="github"
                 />
@@ -96,7 +96,7 @@ export default function Portfolio() {
               >
                 <img
                   style={{ width: "60px", height: "60px",padding:"10px" }}
-                  src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png"
+                  src="https://pngimg.com/uploads/github/github_PNG7.png"
                   className="rounded-circle"
                   alt="github"
                 />
@@ -126,7 +126,7 @@ export default function Portfolio() {
               >
                 <img
                   style={{ width: "60px", height: "60px",padding:"10px" }}
-                  src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png"
+                  src="https://pngimg.com/uploads/github/github_PNG7.png"
                   className="rounded-circle"
                   alt="github"
                 />
@@ -140,25 +140,25 @@ export default function Portfolio() {
           <div
             className="box"
             style={{
-              backgroundImage: `url(${quiz})`,backgroundSize: "cover"
+              backgroundImage: `url(${university})`,backgroundSize: "cover"
             }}
           >
               <div style={{ position: "absolute", margin: "60px" }}>
               <a
-                href="https://github.com/RoopaThimmanacherla/code-quiz"
+                href="https://zeo-university-hub.onrender.com/"
                 target="blank"
                 className="hidden-link"
               >
-                Code Quiz
+                Zeo University Hub
               </a>
               <a
-                href="https://roopathimmanacherla.github.io/code-quiz/"
+                href="https://github.com/RoopaThimmanacherla/Zeo-University-Hub"
                 target="blank"
                 className="hidden-link"
               >
                 <img
                   style={{ width: "60px", height: "60px", padding: "10px" }}
-                  src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png"
+                  src="https://pngimg.com/uploads/github/github_PNG7.png"
                   className="rounded-circle"
                   alt="github"
                 />
@@ -189,7 +189,7 @@ export default function Portfolio() {
               >
                 <img
                   style={{ width: "60px", height: "60px", padding: "10px" }}
-                  src="https://www.kindpng.com/picc/m/128-1280330_github-logo-png-github-icon-blue-png-transparent.png"
+                  src="https://pngimg.com/uploads/github/github_PNG7.png"
                   className="rounded-circle"
                   alt="github"
                 />
